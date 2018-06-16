@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+font-family: monospace;
+margin:0;
+background-image: url("./background.png")
+
+}
+header {
+ width: 100%;
+ background-image: url(./puzzle.jpg);
+ padding: 2px;
+ text-align: center;
+ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+ font-size: large;
+ font-weight: bold;
+}
+table {
+  border: 2px black solid;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+}
+td {
+  border: 1px black solid;
+}
+td:hover {
+  background-color: blue;
+}
+tr:hover {
+  background-color: blue;
+}
+.sol {
+  margin-top: 55px;
+  margin-right: 20px;
+  padding: 20px;
+  color: black;
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  padding: 8px 8px 8px 8px;
+}
+.sol:hover {
+  background-color: black;
+  color: white;
+}
+.sol:active {
+  transform: translateY(3px);
+}
+#reveal
+{
+  margin: 14px 14px 14px 14px;
+  padding: 8px 8px 8px 8px;
+}
+#reset
+{
+  margin: 14px 14px 14px 14px;
+  padding: 8px 8px 8px 8px;
+}
